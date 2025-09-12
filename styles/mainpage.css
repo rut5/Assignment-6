@@ -3,7 +3,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .logo-header {
@@ -11,15 +11,15 @@
     max-width: 185px;
     width: 100%;
     margin-top: 42px;
-    margin-left: 144px;
+    margin-left: 100px;
 }
 
 .nav ul {
     height: 28px;
-    max-width: 350px;
+    max-width: 550px;
     width: 100%;
     margin-top: 44px;
-    margin-left: 320px;
+    display: flex;
 }
 
 .nav ul li {
@@ -36,6 +36,15 @@
     color: black;
 }
 
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 600px;
+  width: 100%;
+  margin-right: 100px;
+}
+
 .buttons-header {
     display: flex;
     gap: 14px;
@@ -43,8 +52,6 @@
     font-weight: 600;
     font-style: normal;
     font-size: 16;
-    margin-left: 29px;
-    margin-right: 145px;
     height: 46px;
     max-width: 250px;
     width: 100%;
@@ -78,7 +85,9 @@
 }
 
 .design-thinking-superpowers {
-    margin-top: 113px;
+    display: flex;
+    align-items: center;
+    margin-top: 117px;
     margin-left: 145px;
     height: 331px;
     max-width: 518px;
@@ -139,35 +148,24 @@
     width: 100%;
 }
 
-/*
 .image1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-} */
-
-.flex-image1 {
-    margin-left: 3px;
     height: 496px;
     max-width: 605px;
     width: 100%;
-}
+    margin-top: 34px;
+    margin-left: 3px;
+} 
 
 .we-design-tools {
   display: flex;
+  align-items: center;
   max-width: 1095px;
 }
 
 .textblock2 {
-    /*display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    margin-top: 118;
-    margin-left: 278px;
-    margin-right: 278px;
-    height: 108px;
-    max-width: 539px;
-    width: 100%;
+    align-items: center; 
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -180,29 +178,44 @@
 /* block with icons */
 
 .text-and-icons {
+    display: flex;
+    justify-content: center;
     height: 204px;
+    max-width: 1095px;
+    width: 100%
+    /*height: 204px;
     max-width: 1095px;
     width: 100%;
     margin-top: 54px;
     margin-left: 144px;
-    margin-right: 144px;
+    margin-right: 144px;*/
 }
 
 .icon {
   display: flex;
-  justify-content: flex-start;
   height: 50px;
   max-width: 50px;
   width: 100%;
-  margin-right: 236px;
 }
 
 .span1 {
-    
+  display: flex;
+  height: 33px;
+  max-width: 170px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22;
+  color: #2F281E;
 }
 
 .text2 {
-
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16;
+  color: #544837;
 }
 
 /* .poppins-thin {
